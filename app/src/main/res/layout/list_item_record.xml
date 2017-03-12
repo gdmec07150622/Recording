@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_record_solved_check_box"
+        android:layout_alignParentRight="true"
+        android:padding="4dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="见证 标题"
+        android:id="@+id/list_item_record_title_text_view"
+        android:layout_toLeftOf="@id/list_item_record_solved_check_box"
+        android:padding="4dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="见证日期"
+        android:id="@+id/list_item_record_date_text_view"
+        android:layout_toLeftOf="@id/list_item_record_solved_check_box"
+       android:layout_below="@id/list_item_record_title_text_view"
+        android:padding="4dp"
+        />
+</RelativeLayout>

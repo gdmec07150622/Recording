@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">见证...</string>
+    <string name="title_activity_recprd">RecordActivity</string>
+    <string name="record_title_hint">输入记录标题</string>
+    <string name="action_setting">Setting</string>
+    <string name="record_title_label">标题</string>
+    <string name="record_details_label">详情</string>
+    <string name="record_solved_label">处理</string>
+    <string name="date_picker">记录日期</string>
+    <string name="new_record">新建记录</string>
+    <string name="show_subtitle">显示副标题</string>
+    <string name="hide_subtitle">隐藏副标题</string>
+    <string name="subtitle_format">%1$s 条 记录</string>
+</resources>
